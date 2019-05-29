@@ -23,7 +23,6 @@ void(){
 ### Exemplo 2 - Variáveis
 
 ```
-
 void main(){
   String nome, sobrenome, email;
   nome = "Elizeu";
