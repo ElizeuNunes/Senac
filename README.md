@@ -3,14 +3,14 @@ Curso Desenvolvimento de Aplicativos Móveis
 
 Usando **DART** e **FLUTTER**
 
-###Aulas 1 - Variáveis
+##Aulas 1 - Variáveis
 
 Resumindo, a variavel é como uma caixa, onde eu guardo um determinado valor, este valor podendo ser um numero, um texto, um valor lógico(sim/não), etc.
 
 ###Tipo de Variáveis
-**String** - textos
-**int** - números inteiros
-**double** - números decimais
+- **String** - textos
+- **int** - números inteiros
+- **double** - números decimais
 
 ```
 void(){
