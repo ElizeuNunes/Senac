@@ -133,3 +133,25 @@ else
 {
   print("Vacilão, aposto que faz ADM.");
 }
+
+```dart
+
+void main(){
+  
+	double nota1, nota2, media;
+  
+  nota1 = 5;
+  nota2 = 8;
+  
+  media = (nota1 + nota2) / 2;
+  
+  if(media > 5)
+  {
+    print("Aprovado com $media");
+  }
+  else
+  {
+    print("Reprovado com $media");
+  }
+  
+  ```
