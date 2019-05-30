@@ -42,6 +42,10 @@ void main(){
 ```
 ## Aula 2
 
+**${qtd_pessoa.toStringAsFixed(2)}**
+
+o método toStringAsFixed() foi usado para formatar as casas (2) decimais da variavel(qtd_pessoa) double.
+
 ```dart
 void main(){
  String nome, sobrenome, email, senha, cpf, endereco, sexo, celular, curso, nome_social;
