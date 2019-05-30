@@ -102,9 +102,9 @@ O IF serve para determinar se um bolo de intruções **deve** ou **não** ser ex
 
 - == *Igualdade*
 - != *Diferente*
-- >= *Maior ou igual*
+- \>= *Maior ou igual*
 - <= *Menor ou igual*
-- >  *Maior*
+- \>  *Maior*
 - <  *Menor*
 
 ### Sintaxe
