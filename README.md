@@ -12,7 +12,7 @@ Resumindo, a variavel é como uma caixa, onde eu guardo um determinado valor, es
 - **int** - números inteiros
 - **double** - números decimais
 
-```
+```dart
 void(){
   String nome = "Elizeu"
   int idade = 16;
@@ -22,7 +22,7 @@ void(){
 
 ### Exemplo 2 - Variáveis
 
-```
+```dart
 void main(){
   String nome, sobrenome, email;
   nome = "Elizeu";
