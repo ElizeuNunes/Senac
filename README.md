@@ -122,7 +122,7 @@ else
 
 ### Exemplo if
 
-```
+```dart
 String curso = "programador android";
 
 if(curso == "programador android")
