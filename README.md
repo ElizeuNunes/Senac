@@ -140,7 +140,7 @@ else
 
 void main(){
   
-	double nota1, nota2, media;
+double nota1, nota2, media;
   
   nota1 = 5;
   nota2 = 8;
