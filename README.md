@@ -242,6 +242,8 @@ if(teste){
 
 ```
 
+## exemplo de else if
+ 
 ```dart 
 void main() {
   String cidade_natal;
