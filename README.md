@@ -157,9 +157,23 @@ double nota1, nota2, media;
   }
   
   ```
-  ### Aula 3 - Lógica com DART
+  ## Aula 3 - Lógica com DART
+  
+  Foi importada a *biblioteca* **dart:math** para podermos usar funções matematicas como potencia e raiz quadrada, no exemplo abaixo foi usada a função **math.sqrt()** para calcular a raiz de delta
+  
+  - Após a importação foi dado um "apelido" para chamar a função através da sintaxe **as** (dart:math as **match**)
+  - Foram usados 2 if, o 1° para dar acesso através d palavra mágica SHAZAM e o 2° para fazer a equação.
+  - Cada if tem seu próprio **else** , daí a importrancia de *identar* , organizar o código com **TABS**
+  
+  ### Exemplos usando math
   
   ### Exemplo Usando If dentro de IF (Login e Equação de 2° grau)
+   
+  ```dart
+  print(math.sqrt(9)); //exibe a raiz 9
+  print(math.pi); //exibe o valor de pi
+  print(math.pow(2,7)); //exibe o resultado de 2 elevado a 7
+  ```
   
   ```dart
   
