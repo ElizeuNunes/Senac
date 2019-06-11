@@ -303,3 +303,81 @@ void main() {
    print(numero);
 
 ```
+# Aulas Programador de Dispositivos Móveis
+## Aula Funções
+
+Ensinando a criar função através de um exemplo de uma calculadora
+
+```dart
+void main() {
+  print('Minha calculadora =) \n---------------');
+  String operacao = "+";
+  print('A operação que vamos fazer: $operacao \n\n');
+  
+  int n1 = 10;
+  int n2 = 5;
+  
+  print('Quanto é $n1 $operacao $n2?');
+  
+  int resposta = n1 + n2;
+  
+  print("A resposta é: $resposta");
+  
+}
+
+// E SE EU QUISER FAZER TODAS AS OPERAÇÕES DE UMA SÓ VEZ?
+void main() {
+  print('Minha calculadora =) \n---------------\n');
+  
+  double n1 = 10;
+  double n2 = 5;
+  
+  //E é assim que a gente chama uma função
+  calcular(n1, n2, "+");
+  calcular(n1, n2, "-");
+  calcular(n1, n2, "/");
+  calcular(n1, n2, "*");
+  
+}
+
+/*Como cria uma função?
+
+primeiro vem o retorno
+depois o nome da função
+depois, entre parentese, os paremetros (pode ter ou não!)
+Por último, dentro das chaves, o que a função faz, ou seja, o corpo da função
+
+IMPORTANTE: só criar a função não serve para nada. 
+A gente tem que chamar ela em algum lugar
+*/
+
+void calcular(double n1, double n2, String operacao){
+    print('Quanto é $n1 $operacao $n2?');
+    double resposta;
+    
+    if (operacao == "+") {
+    	 resposta = n1 + n2;
+    } else if (operacao == "-") {
+      resposta = n1 - n2;
+    } else if (operacao == "/") {
+      resposta = n1 / n2;
+    } else if (operacao == "*") {
+      resposta = n1 * n2;
+    } else {
+      resposta = 0;
+    }
+  
+    print("A resposta é: $resposta\n");
+  }
+```
+## Aula Flutter 
+
+**Primeiro:**
+
+Entrar em flutter.dev (ou flutter.io) e procurar o local para começar a utilizar o flutter (Get Started)
+Seguir os passos de intalação, que constituem basicamente de:
+- baixar o SDK do flutter e colocá-lo na pasta "C:\src\flutter"
+- baixar e intalar o Android Studio
+- rodar o comando "flutter doctor" no Prompt de comando para certificar que esta tudo ok.
+
+**Criação do primeiro App**
