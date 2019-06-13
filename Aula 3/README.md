@@ -86,4 +86,6 @@ Normalmente um CircleAvatar.**
 
 **trailing - Serve pra colocar o icone do title na direita.**
 
+**MaterialApp - Um widget de conveniência que envolve vários widgets normalmente necessários para aplicativos de design de materiais. Ele se baseia em um WidgetsApp, adicionando funcionalidades específicas de design de material, como AnimatedTheme e GridPaper.**
+
 
