@@ -1,3 +1,4 @@
+```dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -47,6 +48,7 @@ void main() {
     ),
   );
 }
+```
 
 **Scaffold - é uma classe importante em Flutter, pois cria a estrutura básica de layout do Widget Marial Design.**
 - permite montar montar a estrutura básica de uma tela,
